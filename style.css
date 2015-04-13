@@ -1,1 +1,63 @@
-﻿
+﻿th:nth-child(1){
+	font-style:italic;
+	font-weight:normal;
+}
+
+td:nth-child(2){
+	color:red;
+}
+
+td:nth-child(4){
+	color:blue;
+}
+
+
+tr:nth-child(1){
+	background: lightblue;
+}
+
+tr:nth-child(3){
+	background: lightblue;
+}
+
+tr:nth-child(5){
+	background: lightblue;
+}
+
+tr:nth-child(2){
+	background: lightgreen;
+}
+
+tr:nth-child(4){
+	background: lightgreen;
+}
+tr:nth-child(6){
+	background: lightgreen;
+}
+
+dt:nth-child(1):hover{
+	background-color: purple;
+}
+
+div{
+	align: left
+}
+.outer-content{
+	background-color: pink;
+	height: 5em;
+	width: 75em;
+}
+
+.inner-content{
+	background-color: blue;
+	position: relative;
+	width: 40em;
+	margin: 0 auto;
+	top: 50%;
+}
+
+img{
+	float: left;
+	length: 100px;
+	width: 125px;
+}
